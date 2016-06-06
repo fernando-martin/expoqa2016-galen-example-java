@@ -1,0 +1,9 @@
+@objects
+   footer-image   xpath    //*[@id="contenedor"]/div[3]/div[4]/div
+
+= Footer section =
+    footer-image:
+      image file img/img-pie-sitio.jpg, error 12px
+      image file img/img-col1-sessions.jpg, error 12px
+
+

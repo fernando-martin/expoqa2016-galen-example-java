@@ -1,0 +1,13 @@
+@objects
+    menu_img_1   xpath    //*[@id="sticky-header"]/nav/ul/li[1]/a/img
+    menu_text_1  xpath    //*[@id="sticky-header"]/nav/ul/li[1]/a/span
+
+== Menu ==
+    @if ${isVisible("menu_img_1")}
+        menu_img_1:
+            height 23px
+    @else
+        menu_text_1:
+            text is "typographics"
+
+

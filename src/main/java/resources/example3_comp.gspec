@@ -1,0 +1,10 @@
+@objects
+    title     xpath    //*[@id="contenedor"]/div[3]/div[3]/div[2]/div[14]/h1/a
+    speaker   xpath    //*[@id="contenedor"]/div[3]/div[3]/div[2]/div[14]/p[2]/strong
+
+= User section =
+    title:
+        text is "${title}"
+
+    speaker:
+        text contains "${author}"

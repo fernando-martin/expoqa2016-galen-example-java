@@ -1,0 +1,12 @@
+@objects
+    menu       id    menu
+    submenu    id    submenu
+
+== Menu ==
+    @on mobile
+        menu, submenu:
+            absent
+
+    @on tablet, desktop
+        menu, submenu:
+            visible

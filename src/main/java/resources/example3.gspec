@@ -1,0 +1,8 @@
+@objects
+   speaker   xpath    //*[@id="contenedor"]/div[3]/div[3]/div[2]/div[14]
+
+= Speakers section =
+    speaker:
+      component example3_comp.gspec, title "AfterTest: Am I responsive, TEST ME!", author "Fernando Martín"
+
+
