@@ -1,0 +1,8 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="expoqa2016-galen-example-java" verbose="2">
+    <test name="Tests">
+        <classes>
+            <class name="AppTest"/>
+        </classes>
+    </test>
+</suite>

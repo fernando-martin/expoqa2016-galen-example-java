@@ -61,13 +61,4 @@ public class AppTest extends GalenTestNgTestBase {
         load(url, device.getSize().getWidth(), device.getSize().getHeight());
         checkLayout("src/main/java/resources/example4.gspec", device.getTags());
     }
-
-    @Test(dataProvider = "devices")
-    public void exampleTest5(Device device) throws IOException {
-        String url = "http://www.expoqa.com/sessions.php";
-
-        load(url, device.getSize().getWidth(), device.getSize().getHeight());
-        checkLayout("src/main/java/resources/example5.gspec", device.getTags());
-    }
-
 }

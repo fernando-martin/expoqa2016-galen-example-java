@@ -36,6 +36,9 @@
                             <value>com.galenframework.testng.GalenTestNgReportsListener</value>
                         </property>
                     </properties>
+                    <suiteXmlFiles>
+                        <suiteXmlFile>src/test/resources/testng.xml</suiteXmlFile>
+                    </suiteXmlFiles>
                 </configuration>
             </plugin>
         </plugins>
