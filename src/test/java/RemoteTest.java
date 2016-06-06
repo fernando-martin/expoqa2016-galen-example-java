@@ -2,7 +2,6 @@ import com.galenframework.testng.GalenTestNgTestBase;
 import domain.Device;
 import org.openqa.selenium.Dimension;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.remote.RemoteWebDriver;
 import org.testng.annotations.DataProvider;
@@ -13,11 +12,12 @@ import java.net.MalformedURLException;
 import java.net.URL;
 import java.util.Collections;
 
+import static domain.Credentials.KEY;
+import static domain.Credentials.USERNAME;
+
 public class RemoteTest extends GalenTestNgTestBase {
 
-    private static final String USERNAME = "";
-    private static final String ACCESS_KEY = "";
-    private static final String URL = "http://" + USERNAME + ":" + ACCESS_KEY + "@ondemand.saucelabs.com:80/wd/hub";
+    private static final String URL = "http://" + USERNAME + ":" + KEY + "@ondemand.saucelabs.com:80/wd/hub";
 
     @Override
     public WebDriver createDriver(Object[] args) {

@@ -63,5 +63,5 @@ crashlytics.properties
 crashlytics-build.properties
 
 target/
+/src/main/java/domain/Credentials.java
 lib/
-
