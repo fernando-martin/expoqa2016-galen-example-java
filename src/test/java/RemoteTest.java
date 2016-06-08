@@ -33,11 +33,7 @@ public class RemoteTest extends GalenTestNgTestBase {
     public Object[][] devices() {
         return new Object[][]{
                 {new Device("mobile", new Dimension(480, 800), Collections
-                        .singletonList("mobile"))},
-                {new Device("tablet", new Dimension(1024, 768), Collections
-                        .singletonList("tablet"))},
-                {new Device("desktop", new Dimension(1280, 1024), Collections
-                        .singletonList("desktop"))}
+                        .singletonList("mobile"))}
         };
     }
 
@@ -49,5 +45,4 @@ public class RemoteTest extends GalenTestNgTestBase {
         load(url, device.getSize().getWidth(), device.getSize().getHeight());
         checkLayout("src/main/java/resources/example1.gspec", device.getTags());
     }
-
 }

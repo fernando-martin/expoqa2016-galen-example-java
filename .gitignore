@@ -65,3 +65,4 @@ crashlytics-build.properties
 target/
 /src/main/java/domain/Credentials.java
 lib/
+/exercise5.mov
